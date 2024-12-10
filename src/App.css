@@ -1,0 +1,66 @@
+/* App styles */
+.app-container {
+  display: flex;
+  height: 100vh;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+  position: relative;
+}
+
+/* Block container */
+.block-container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 2px solid black;
+  margin-right: 50px; /* Space between block and buttons */
+}
+
+/* Block styling */
+.block {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+/* Buttons styling */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
